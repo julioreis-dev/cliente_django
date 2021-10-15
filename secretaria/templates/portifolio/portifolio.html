@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+{% load static %}
+
+<!-- Portfolio Section -->
+<section id="portfolios" class="section">
+  <!-- Container Starts -->
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title">Nosso campus</h2>
+      <hr class="lines">
+      <p class="section-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, dignissimos! <br> Lorem ipsum dolor sit amet, consectetur.</p>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <!-- Portfolio Controller/Buttons -->
+        <div class="controls text-center">
+          <a class="filter active btn btn-common" data-filter="all">
+            All
+          </a>
+          <a class="filter btn btn-common" data-filter=".esporte">
+            Esporte
+          </a>
+          <a class="filter btn btn-common" data-filter=".idiomas">
+            Idiomas
+          </a>
+          <a class="filter btn btn-common" data-filter=".gincanas">
+            Gincanas
+          </a>
+        </div>
+        <!-- Portfolio Controller/Buttons Ends-->
+      </div>
+
+      <!-- Portfolio Recent Projects -->
+      <div id="portfolio" class="row">
+        <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix idiomas">
+          <div class="portfolio-item">
+            <div class="shot-item">
+              <img src="{% static 'img/portfolio/alunos.jpg' %}" alt="" />
+              <a class="overlay lightbox" href="{% static 'img/portfolio/alunos.jpg' %}">
+                <i class="lnr lnr-eye item-icon"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix esporte print">
+          <div class="portfolio-item">
+            <div class="shot-item">
+              <img src="{% static 'img/portfolio/educacao-fisica.jpg' %}" alt="" />
+              <a class="overlay lightbox" href="{% static 'img/portfolio/educacao-fisica.jpg' %}">
+                <i class="lnr lnr-eye item-icon"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix esporte">
+          <div class="portfolio-item">
+            <div class="shot-item">
+              <img src="{% static 'img/portfolio/escolar-capa.png' %}" alt="" />
+              <a class="overlay lightbox" href="{% static 'img/portfolio/escolar-capa.png' %}">
+                <i class="lnr lnr-eye item-icon"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix esporte gincanas">
+          <div class="portfolio-item">
+            <div class="shot-item">
+              <img src="{% static 'img/portfolio/images.jpg' %}" alt="" />
+              <a class="overlay lightbox" href="{% static 'img/portfolio/images.jpg' %}">
+                <i class="lnr lnr-eye item-icon"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix gincanas">
+          <div class="portfolio-item">
+            <div class="shot-item">
+              <img src="{% static 'img/portfolio/indice.jpg' %}" alt="" />
+              <a class="overlay lightbox" href="{% static 'img/portfolio/indice.jpg' %}">
+                <i class="lnr lnr-eye item-icon"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4 mix print design">
+          <div class="portfolio-item">
+            <div class="shot-item">
+              <img src="{% static 'img/portfolio/educacao-fisica.jpg' %}" alt="" />
+              <a class="overlay lightbox" href="{% static 'img/portfolio/educacao-fisica.jpg' %}">
+                <i class="lnr lnr-eye item-icon"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Container Ends -->
+</section>
+    <!-- Portfolio Section Ends -->
