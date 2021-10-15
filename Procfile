@@ -1,0 +1,1 @@
+web: gunicorn secretariaAdmin.wsgi --log-file -
